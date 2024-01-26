@@ -1,6 +1,6 @@
 {
   "name": "prettytablenotcsv",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "prettytable.js",
   "description": "CLI based Node module for generating pretty tables from multiple data sources",
   "keywords": ["table", "cli table", "csv", "json"],
