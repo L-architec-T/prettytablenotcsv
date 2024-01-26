@@ -59,29 +59,6 @@ pt.print();
 
 We are using `fieldNames()` method and passing a list of table headers. Method `addRow()` takes an array of elements and adds them to the table as a row. Finally, the `print()` method prints the table in plain text.
 
-### Importing from CSV File
-
-PrettyTable can load a local CSV file and print it on the console. It considers the first row to generate table headers.
-
-```javascript
-PrettyTable = require('prettytable');
-pt = new PrettyTable();
-
-pt.csv("myfile.csv");
-pt.print();
-```
-
-### Importing from JSON File
-
-Like CSV, PrettyTable can load a local JSON file, parse through it and finally print it on the console. Table headers are automatically determined from the keys.
-
-```javascript
-PrettyTable = require('prettytable');
-pt = new PrettyTable();
-
-pt.json("myfile.json");
-pt.print();
-```
 
 ### Output Formats
 
